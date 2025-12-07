@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PlantiFy</string>
+    <string name="title_activity_main">PlantiFy</string>
+    <string name="package_name">com.kiran.plantify</string>
+    <string name="custom_url_scheme">com.kiran.plantify</string>
+</resources>

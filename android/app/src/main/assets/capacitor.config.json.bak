@@ -1,0 +1,9 @@
+{
+	"appId": "com.kiran.plantify",
+	"appName": "PlantiFy",
+	"webDir": "dist",
+	"server": {
+		"url": "https://1fef50b7-6227-441e-9b26-8f6438124e80.lovableproject.com?forceHideBadge=true",
+		"cleartext": true
+	}
+}
