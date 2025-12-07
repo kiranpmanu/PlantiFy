@@ -30,7 +30,7 @@ The app runs entirely offline, ensuring fast predictions and enhanced privacy.
 **URL :** https://drive.google.com/file/d/1tNyQ77umziLXACCtSVAFWRBHLWy0e4ik/view?usp=sharing
 
 ## 📱 Download APK (Android
-**URL :** https://github.com/<username>/<repo>/releases/
+**URL :** https://github.com/kiranpmanu/PlantiFy/releases/tag/v1.0.0
 
 ## 🧠 AI Model Used
 
