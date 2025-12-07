@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+# 🌿 PlantiFy – AI Powered Medicinal Plant Identifier
+## Identify medicinal plants instantly using your phone’s camera, powered by on-device AI.
 
-## Project info
+## 🚀 Overview
 
-**URL**: https://lovable.dev/projects/1fef50b7-6227-441e-9b26-8f6438124e80
+PlantiFy is a cross-platform mobile application built using React (Vite) + Capacitor + TensorFlow Lite.
+It identifies medicinal plants from images captured by the camera or gallery using an optimized TFLite model.
 
-## How can I edit this code?
+The app runs entirely offline, ensuring fast predictions and enhanced privacy.
 
-There are several ways of editing your application.
+## ⭐ Features:
 
-**Use Lovable**
+🌱 Identify plants instantly using the camera
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1fef50b7-6227-441e-9b26-8f6438124e80) and start prompting.
+📸 Upload plant images from gallery
 
-Changes made via Lovable will be committed automatically to this repo.
+🤖 On-device AI model (TFLite) – works offline
 
-**Use your preferred IDE**
+🔍 Displays predictions with accuracy
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⚡ Fast, smooth UI with Framer Motion
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🎨 Modern UI using Tailwind + Shadcn UI
 
-Follow these steps:
+📂 Saved plants section (optional)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🌟 Beautiful splash screen & branded app icon
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🎥 Demo Video
+**URL :** https://drive.google.com/file/d/1tNyQ77umziLXACCtSVAFWRBHLWy0e4ik/view?usp=sharing
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📱 Download APK (Android
+**URL :** https://github.com/<username>/<repo>/releases/
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧠 AI Model Used
 
-**Edit a file directly in GitHub**
+Model Type: DenseNet / MobileNet
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Framework: TensorFlow → TensorFlow Lite
 
-**Use GitHub Codespaces**
+Dataset: Medicinal plant leaves
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Accuracy: 98.81%
 
-## What technologies are used for this project?
+Runs completely offline
 
-This project is built with:
+## 🛠️ Tech Stack
+**Frontend**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+React
 
-## How can I deploy this project?
+TypeScript
 
-Simply open [Lovable](https://lovable.dev/projects/1fef50b7-6227-441e-9b26-8f6438124e80) and click on Share -> Publish.
+Vite
 
-## Can I connect a custom domain to my Lovable project?
+Tailwind CSS
 
-Yes, you can!
+Shadcn UI
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Framer Motion
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Mobile Runtime**
+
+Capacitor
+
+Android WebView
+
+Native Plugins (Camera)
+
+**Machine Learning**
+
+TensorFlow Lite (TFLite)
+
+## 🔒 Security Measures
+
+ProGuard enabled for code protection
+
+Limited permissions: Camera + Media
+
+All communications via HTTPS
+
+No user data sent to server (100% on-device ML)
+
+Optimized TFLite model to prevent extraction
+
+## 📝 Folder Structure
+/src
+  /components
+  /pages
+  /utils
+  App.tsx
+  main.tsx
+
+/android
+  /app
+  gradlew
+  settings.gradle
+
+/public
+/index.html
+/package.json
+/capacitor.config.ts
+
+## 👨‍💻 Developer
+
+Kiran P
+Aspiring Data Scientist and Data Analyst
+📍 India
+
+## ⭐ Contributing
+
+PRs are welcome!
+For major changes, please open an issue first.
